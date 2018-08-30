@@ -1,0 +1,11 @@
+"""
+Cree una función que tome una lista de números y devuelva el valor medio.
+Redondea a dos lugares decimales
+"""
+def mean(lst):
+	suma=0
+	for i in lst:
+		suma=suma+i
+	n=len(lst)
+	prom=suma/n
+	return round(prom,2)
