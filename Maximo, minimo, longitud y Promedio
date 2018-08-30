@@ -1,0 +1,9 @@
+"""
+Cree una función que tome una lista de números y devuelva las siguientes estadísticas:
+Valor mínimo
+Valor máximo
+Longitud de secuencia
+Valor promedio
+"""
+def minMaxLengthAverage(lst):
+	return[min(lst),max(lst),len(lst),sum(lst)/len(lst)]
