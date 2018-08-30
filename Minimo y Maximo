@@ -1,0 +1,5 @@
+"""
+Cree una función que acepte una lista de números y devuelva los números mínimo y máximo, en ese orden (como una lista).
+"""
+def minMax(nums):
+	return [min(nums),max(nums)]
