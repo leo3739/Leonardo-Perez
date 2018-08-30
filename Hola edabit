@@ -1,0 +1,6 @@
+"""
+Todo lo que tiene que hacer es escribir "hola edabit.com" en la segunda línea y hacer clic en el botón Verificar.
+Si todo fue según lo planeado, el botón se pondrá rojo y decir ENVIAR FINALMENTE. Haga clic y vea qué pasa.
+"""
+def hello():
+	return "hello edabit.com"
