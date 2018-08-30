@@ -1,0 +1,5 @@
+"""
+Cree una función que tome una lista y una cadena como argumentos y devuelva el índice de la cadena.
+"""
+def find_index(lst, str):
+	return lst.index(str)
