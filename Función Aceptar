@@ -1,0 +1,6 @@
+"""
+Cree una función que acepte una lista y devuelva el último elemento de la lista.
+La lista puede ser homogénea o heterogénea.
+"""
+def getLastItem(lst):
+	return lst[-1]
