@@ -1,0 +1,9 @@
+"""
+Cree una función que tome un número como argumento y devuelva "par" para los números pares y "impar" para los números impares.
+"""
+def isEvenOrOdd(num):
+	n=num%2
+	if(n==1):
+		return "odd"
+	else:
+		return "even"
