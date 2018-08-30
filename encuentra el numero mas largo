@@ -1,0 +1,5 @@
+"""
+Crea una función que tome una lista de números. Devuelve el número más grande en la lista.
+"""
+def findLargestNum(nums):
+	return max(nums)
