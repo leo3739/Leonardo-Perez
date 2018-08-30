@@ -1,0 +1,10 @@
+"""
+Crea una función que toma una cadena y devuelve el número (conteo) de las vocales contenidas en ella.
+"""
+def count_vowels(txt):
+	a=txt.count('a')
+	e=txt.count('e')
+	i=txt.count('i')
+	o=txt.count('o')
+	u=txt.count('u')
+	return a+e+i+o+u
