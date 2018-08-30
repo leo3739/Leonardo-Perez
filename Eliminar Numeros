@@ -1,0 +1,7 @@
+"""
+Cree una función que tome una lista de números y devuelva solo los valores pares.
+Regrese todos los números pares en el orden en que fueron dados
+"""
+def noOdds(lst):
+	even=[i for i in lst if i%2==0]
+	return even
